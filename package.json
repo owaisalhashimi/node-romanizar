@@ -14,7 +14,6 @@
     "romanization"
   ],
   "author": "Owais Al-Hashimi",
-  "license": "GPL v2",
   "dependencies": {
     "optimist": "~0.6.0"
   }
