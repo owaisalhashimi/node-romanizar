@@ -1,4 +1,3 @@
-#!/usr/local/bin/node
 var fs = require('fs');
 var path = require('path');
 var opts = require('optimist');
@@ -33,4 +32,4 @@ var oTR = {};
 	oTR.read = function(){
 		fs.readFile(oTR.file,'utf8',oTR.transliterate);
 	};
-oTR.read();
+module.exports = oTR;

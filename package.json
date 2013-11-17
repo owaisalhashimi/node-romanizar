@@ -2,11 +2,9 @@
   "name": "romanizar",
   "version": "1.0.0",
   "description": "Romanize Arabic letters with simple codes in text files.",
-  "scripts": {
-    "romanizar": "node index.js"
-  },
+  "main": "romanizar.js",
   "bin": {
-    "romanizar": "index.js"
+    "romanizar": "command.js"
   },
   "keywords": [
     "Arabic",
