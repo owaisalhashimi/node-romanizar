@@ -1,7 +1,7 @@
 {
   "name": "romanizar",
   "version": "1.0.0",
-  "description": "Romanize Arabic letters with simple codes in text files.",
+  "description": "Romanize Arabic letters with simple codes in HTML documents.",
   "main": "romanizar.js",
   "bin": {
     "romanizar": "command.js"
